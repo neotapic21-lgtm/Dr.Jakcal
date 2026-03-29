@@ -1,5 +1,11 @@
 #include <stdio.h>
 
-void printSimple() {
-    printf("Hello, vlog welcome to my guys");
+int squareNumber(int num) {
+    return num * num;
+}
+
+int main() {
+    int result = squareNumber(5);
+    printf("Square of 5: %d\n", result);
+    return 0;
 }
