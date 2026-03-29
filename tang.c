@@ -1,8 +1,11 @@
 #include <stdio.h>
 
+void printSimple(){
+    printf("Hello, vlog welcome to my guys");
+
+}
+
 int main(){
-
-    printf("Tang ina ni josh ");
+    printSimple();
     return 0;
-
 }
