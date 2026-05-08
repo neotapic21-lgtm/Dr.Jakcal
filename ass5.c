@@ -30,7 +30,7 @@ void showStudent(struct student s){
     printf("----------------------------------\n");
 }
 
-int main{
+int main (){
 
     struct Student student1;
     struct Student student2;
