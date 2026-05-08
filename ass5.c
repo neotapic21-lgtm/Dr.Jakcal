@@ -9,7 +9,7 @@ struct student {
 
 void input_Student_Data(struct student * student ){
     printf("Enter student name: ");
-    scanf(" %[^\n]", s->name);
+    scanf(" %[^\n]", &s->name);
 
     printf("Enter Age: ");
     scanf("%d", &s->age);
