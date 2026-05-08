@@ -23,17 +23,17 @@ void input_Student_Data(struct student *s ){
 
 void displayStudentData(struct student s){
     printf("\n------STUDENT RECORDS-------\n");
-    printf("Name: %s\n", student.name);
-    printf("Age: %d\n", student.age);
-    printf("Section: %c\n", student.section);
-    printf("Grade: %.2f\n", student.grade);
+    printf("Name: %s\n", s.name);
+    printf("Age: %d\n", s.age);
+    printf("Section: %c\n", s.section);
+    printf("Grade: %.2f\n", s.grade);
     printf("----------------------------------\n");
 }
 
 int main (){
 
-    struct Student student1;
-    struct Student student2;
+    struct student student1;
+    struct student student2;
 
     printf("===== STUDENT RECORD MANAGEMENT =====\n\n");
     
