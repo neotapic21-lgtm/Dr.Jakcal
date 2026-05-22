@@ -23,7 +23,7 @@ int main(void) {
     fclose(fp);
     
     fp = fopen("Neo_Tapic.txt", "r");
-    fscanf(fp, "%s %d %s %s", name, &age, section, program);
+    fscanf(fp, "%s %d %s %s", name, &age, program, section);
     
     printf("Name: %s\n", name);
     printf("Age: %d\n", age);
