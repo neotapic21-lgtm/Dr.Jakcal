@@ -2,6 +2,7 @@
 
 int main(void) {
 
+    FILE *fp;
     char name[100];
     char section[100];
     char program[100];
