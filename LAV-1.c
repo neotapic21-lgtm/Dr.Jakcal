@@ -11,7 +11,7 @@ int main(void) {
     sprintf(name, "Neo Tapic");
     age = 20;
     sprintf(program, "Diploma in Information Technology");
-    sprintf(section, "1-1");
+    sprintf(section, "A+");
 
     fp = fopen("Neo_Tapic.txt", "w");
 
