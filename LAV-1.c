@@ -15,10 +15,10 @@ int main(void) {
 
     fp = fopen("Neo_Tapic.txt", "w");
 
-    fprints(fp, "%s\n", name);
-    fprintf(fp, "%d\n", age);
+    fgets(fp, "%s\n", name);
+    fscanf(fp, "%d\n", age);
     fgets(fp, "%s\n", program);
-    fprintf(fp, "%s\n", section);
+    fscanf(fp, "%s\n", section);
 
     fclose(fp);
     
