@@ -15,9 +15,9 @@ int main(void) {
 
     fp = fopen("Neo_Tapic.txt", "w");
 
-    fprintf(fp, "%s\n", name);
+    fprints(fp, "%s\n", name);
     fprintf(fp, "%d\n", age);
-    fprintf(fp, "%s\n", program);
+    fgets(fp, "%s\n", program);
     fprintf(fp, "%s\n", section);
 
     fclose(fp);
