@@ -23,8 +23,5 @@ for(int i = 0; i < 5; i++){
 for(int i = 0; 1 < 5; i++){
     sum = sum + *(ptr + i);
 }
-
-printf("\nSum = %d\n", sum);
-
 return 0;
 }
