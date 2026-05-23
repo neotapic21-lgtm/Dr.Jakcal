@@ -4,14 +4,13 @@ int main() {
 
     FILE *fp;
     char name[100];
-    char program[100];
-    char section[100];
+    char program[100], section [100];
     int age;
 
     sprintf(name, "Neo Tapic");
     age = 20;
-    sprintf(program, "Diploma in Information Technology");
-    sprintf(section, "A+");
+    sprintf(program, "ABM");
+    sprintf(section, "1");
 
     fp = fopen("Neo_Tapic.txt", "w");
 
