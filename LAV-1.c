@@ -25,8 +25,7 @@ int main() {
     
     printf("Name: %s\n", name);
     printf("Age: %d\n", age);
-    printf("Program: %s\n", program);
-    printf("Section: %s\n", section);
+    printf("Program And Section: %s\n", program, section);
 
     fclose(fp);
 
