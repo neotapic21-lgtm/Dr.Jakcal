@@ -9,9 +9,9 @@ int main() {
 
     sprintf(name, "Neo Tapic");
     age = 20;
-    sprintf(course, section, "DIT 1-1");
+    sprintf(course, "DIT 1-1");
 
-    fp = fopen("Neo_Tapic.txt", "w");
+    fp = fopen("    Neo_Tapic.txt", "w");
 
     fgets(name, sizeof(name), fp);
     fscanf(fp, "%d", &age);
