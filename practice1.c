@@ -9,7 +9,7 @@ typedef struct{
 
 void Input_Student_Data(Student *s){
     printf("Student Name: ");
-    scanf("%[^\n]", &s->name);
+    scanf("%s", &s->name);
 
     printf("Section: ");
     scanf(" %c", &s->section);
