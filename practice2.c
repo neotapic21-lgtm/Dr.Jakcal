@@ -9,9 +9,9 @@ int main(){
 
     ptr = &num;
 
-    printf("Enter a value: %d", num);
-    printf("Address: %p", (void*)num);
-    printf("Value using pointer: %d", *ptr);
+    printf("Enter a value: %d\n", num);
+    printf("Address: %p\n", (void*)&num);
+    printf("Value using pointer: %d\n", *ptr);
 
     return 0;
 }
