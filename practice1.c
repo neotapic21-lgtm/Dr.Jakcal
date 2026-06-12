@@ -21,7 +21,7 @@ void Input_Student_Data(Student *s){
     scanf("%f", &s->grade);
 }
 
-void StudentData(Student){
+void StudentData(Student s){
     printf("-------STUDENT DATA-------");
     printf("Name: %s\n", s.name);
     printf("Section: %c\n", s.section);
