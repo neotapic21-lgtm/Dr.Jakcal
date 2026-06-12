@@ -9,20 +9,20 @@ typedef struct{
 
 void Input_Student_Data(Student *s){
     printf("Student Name: ");
-    scanf("%s", &s->name);
+    scanf("%s\n", &s->name);
 
     printf("Section: ");
-    scanf(" %c", &s->section);
+    scanf(" %c\n", &s->section);
 
     printf("Age: ");
-    scanf("%d", &s->age);
+    scanf("%d\n", &s->age);
 
     printf("Grade: ");
-    scanf("%f", &s->grade);
+    scanf("%f\n", &s->grade);
 }
 
 void StudentData(Student s){
-    printf("-------STUDENT DATA-------");
+    printf("-----STUDENT DATA-----\n");
     printf("Name: %s\n", s.name);
     printf("Section: %c\n", s.section);
     printf("Age: %d\n", s.age);
@@ -31,13 +31,13 @@ void StudentData(Student s){
 }
 
 int main(){
-    Student s;
+    Student s1;
 
-    printf("----Display Student Data------");
-    StudentData(s);
+    printf("\n----Display Student Data------\n");
+    Input_Student_Data(&s1);
 
     printf("STUDENT DATA");
-    StudentData(s);
+    StudentData(s1);
 
 
     return 0;
