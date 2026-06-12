@@ -11,7 +11,7 @@ int main() {
     age = 20;
     sprintf(coursesection, "DIT 1-1");
 
-    fp = fopen("    Neo_Tapic.txt", "w");
+    fp = fopen("Neo_Tapic.txt", "w");
 
     fgets(name, sizeof(name), fp);
     fscanf(fp, "%d", &age);

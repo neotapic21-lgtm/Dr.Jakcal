@@ -9,7 +9,7 @@ typedef struct{
 
 void Input_Student_Data(Student *s){
     printf("Student Name: ");
-    scanf("%s", s->name);
+    scanf("%[^\n]", &s->name);
 
     printf("Section: ");
     scanf(" %c", &s->section);
@@ -31,13 +31,13 @@ void StudentData(Student){
 }
 
 int main(){
-    struct s1;
+    Student s;
 
     printf("----Display Student Data------");
-    StudentData(s1);
+    StudentData(s);
 
     printf("STUDENT DATA");
-    StudentData(s1);
+    StudentData(s);
 
 
     return 0;
