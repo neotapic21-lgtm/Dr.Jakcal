@@ -29,9 +29,9 @@ int main(){
     scanf(" %[^\n]", c.course);
 
     printf("\n------STUDENT RECORDS-------\n");
-    printf("Name: %d\n", n.name);
-    printf("Address: %d\n", a.address);
-    printf("Course: %d\n", c.course);
+    printf("Name: %s\n", n.name);
+    printf("Address: %s\n", a.address);
+    printf("Course: %s\n", c.course);
     printf("--------------------------\n");
 
 return 0;
