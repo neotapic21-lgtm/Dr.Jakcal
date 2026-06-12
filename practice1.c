@@ -21,7 +21,7 @@ void Input_Student_Data(Student *s){
     scanf("%f", &s->grade);
 }
 
-void StudentData(Student);{
+void StudentData(Student){
     printf("-------STUDENT DATA-------");
     printf("Name: %s\n", s.name);
     printf("Section: %c\n", s.section);
@@ -31,10 +31,10 @@ void StudentData(Student);{
 }
 
 int main(){
-    struct Student 1;
+    struct Student;
 
     printf("----Display Student Data------");
-    StudentData(&Student 1);
+    StudentData(&Student);
 
     return 0;
 }
