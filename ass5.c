@@ -26,7 +26,7 @@ void displayStudentData(struct student s){
     printf("Name: %s\n", s.name);
     printf("Age: %d\n", s.age);
     printf("Section: %c\n", s.section);
-    printf("Grade: %s\n", s.year);
+    printf("Grade: %f\n", s.year);
     printf("----------------------------------\n");
 }
 
