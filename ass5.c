@@ -4,7 +4,7 @@ struct student {
     char name[100]; 
     int age;
     char section;
-    float grade;
+    float year;
 };
 
 void input_Student_Data(struct student *s ){
@@ -18,7 +18,7 @@ void input_Student_Data(struct student *s ){
     scanf(" %c", &s->section);
 
     printf("Enter Grade: ");
-    scanf("%f", &s->grade);
+    scanf("%f", &s->year);
 }
 
 void displayStudentData(struct student s){
@@ -26,7 +26,7 @@ void displayStudentData(struct student s){
     printf("Name: %s\n", s.name);
     printf("Age: %d\n", s.age);
     printf("Section: %c\n", s.section);
-    printf("Grade: %.2f\n", s.grade);
+    printf("Grade: %s\n", s.year);
     printf("----------------------------------\n");
 }
 
