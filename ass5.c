@@ -18,7 +18,7 @@ void input_Student_Data(struct student *s ){
     scanf(" %c", &s->section);
 
     printf("Enter Grade: ");
-    scanf("%f", &s->year);
+    scanf("%s", &s->year);
 }
 
 void displayStudentData(struct student s){
@@ -26,7 +26,7 @@ void displayStudentData(struct student s){
     printf("Name: %s\n", s.name);
     printf("Age: %d\n", s.age);
     printf("Section: %c\n", s.section);
-    printf("Grade: %f\n", s.year);
+    printf("Grade: %s\n", s.year);
     printf("----------------------------------\n");
 }
 
